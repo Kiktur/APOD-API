@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="astroPic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>NASA API Project Main Page</title>
+   
+</head>
+<body>
+    
+    <h1 id="page-header">NASA's Astronomy Picture of the Day</h1>
+
+<div class="date-select">
+    <label id="date-label" for="date-selector">Select Date: </label>
+    <input type="date" id="date-selector"/>
+    <button id="fetchButton" type="button">Fetch Image</button>
+</div>
+    
+
+    <div class="content-container">
+        <h2 id="image-title"></h2>
+        <img src="" id="APOD-Image" alt=""/>
+        <p id="description"></p>
+
+    </div>
+    
+    
+    
+    <script src="astroPic.js"></script>
+</body>
+</html>
